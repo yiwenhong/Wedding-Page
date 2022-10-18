@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stella & Kevin 's Wedding Invite</title>
+
+    <meta property="og:title" content="Stella & Kevin's - wedding invitation">
+    <meta property="og:description" content="Stella & Kevin's - wedding invitation">
+    <meta property="og:locale" content="id_ID" />
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                 Schedule 
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Location
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#tentang-sherly-daeng">
+                  Photos
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Kindly join us for the wedding of</h1>
+            <h2 class="title">Stella & Kevin</h2>
+            <h4 class="subtitle tempatwaktu">
+              11:00 am
+            </br>
+                24 June 2023
+                </br>
+                691 Pompton Ave, Cedar Grove, NJ 07009
+              
+            </h4>
+          </div>
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Day</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Hour</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minute</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Second</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '06/24/2023 11:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: -4, // TODO Your Timezone Offset
+                day: 'Day',
+                days: 'Days'
+              }, function () {
+                alert('Done!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="#Waktu">Schedule</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Location</a>
+                  </li>
+                  <li>
+                    <a href="#tentang-sherly-daeng">Photos</a>
+                  </li>
+
+                  <li>
+                    <a href="#rsvp">RSVP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/stella_engage1.JPG" style="width:1200px;">
+        </div>
+
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <div class="nama-lengkap" >
+            Stella Kyaw-Soe
+          </div>
+
+          <p class="bodytext" data-aos="fade-up" data-aos-easing="linear" >
+          
+            <br />
+            When I first met Kevin during a Rutgers Welcome Session, he was wearing a red flannel shirt. 
+            Just another student to me…Or so I thought. 6 months later, my perception of him changed. When he joined the Orientation staff, he was charismatic, hilarious and most importantly, we seemed to just get each other. 
+
+            Kevin was by my side during the hardest year of pharmacy school and he continues to be my rock, my best friend. 
+            
+            He spent countless nights keeping me company as I study into the late hours, despite him not having an exam. At some points in our relationship, we also did long distance but somehow it never felt hard for us. That’s because Kevin was always willing to drive to me every weekend despite the long commute, just to spend time with me. When he proposed, it was an easy decision. The past 7 years have truly flown by and I cannot wait to make more memories together. 
+
+            We are so looking forward to this next step of our journey and we hope you will join us in celebrating our union. See you in June of 2023!
+      
+            </p>
+           
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <div class="ampersand">&</div>
+              <div class="nama-lengkap">
+              Kevin Olmedo
+              </div>
+          
+              <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          
+                <br>
+                It all started the summer of 2014 on Rutgers Busch campus. As a transfer student, one of the first people I met at Rutgers was my orientation leader who happened to be Stella. 
+                I asked for her number at the end of the New Student Convocation and my excuse was that I needed help navigating through campus but that was a lie… 
+                I was attracted to her cute petite self. I was disappointed because nothing blossomed after getting her number as she was “unavailable” at the time. 
+                However, it was fate when during the summer of 2015, I too somehow got hired as an OL. To both our surprise, we became coworkers as Stella also ended up returning on staff. 
+                This time around, things worked out. That summer was magical and one that would change our lives forever. 
+                I knew she was someone special from the first moment I met her but fast forward to almost 7 years later, 
+                I was ready to pop the big question. 
+
+                <br>
+
+                After receiving the blessing from Stella’s parents, I proposed on February 26th, 2022 at their NC home, surrounded only by our families. 
+                Knowing Stella, I knew she would not be about a public proposal. I was a nervous wreck and I cannot be more happy when she said “Yes.” 
+                I’m marrying the girl of my dreams. 
+          
+              </p>
+
+
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+        <span class="space40px"></span>
+      </section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin Wedding Day schedule Section -->
+      <section class="section-dark" id="Waktu">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Wedding Day Schedule</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div
+              class="column is-3 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                  <div class="waktu tanggal-hari has-text-centered">Saturday</div> 
+                  <div class="waktu tanggal-angka has-text-centered">24</div>
+                  <div class="waktu tanggal-bulan has-text-centered">June 2023</div>
+              </p>
+            
+            </div>
+            <div class="column is-3 has-vertically-aligned-content">
+            
+              <p class="waktu is-larger has-text-centered">
+                Ceremony
+                <br>
+                <strong> 11:30 am - 12:00 pm </strong>
+              </p>
+            
+            </div>
+
+            <div class="column is-3 has-vertically-aligned-content">
+              
+              <h1 class="waktu is-larger has-text-centered">
+                Cocktail Hour
+                <br>
+                <strong>12:00 pm - 1:00 pm</strong>
+              </h1>
+              
+            </div>
+
+            <div class="column is-3 has-vertically-aligned-content">
+              
+              <h1 class="waktu is-larger has-text-centered">
+                Reception
+                <br>
+                <strong>1:00 pm - 5:00 pm</strong>
+              </h1>
+              
+            </div>
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+      
+      </section>
+      <!-- End Waktu Content -->
+
+      <!-- Begin Lokasi Section -->
+      <section class="section-darker" id="lokasi" >
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Location</h1>
+            <p class="tempat is-larger has-text-centered">
+              <strong>Ceremony and Reception</strong>
+              <br>
+              The Grove
+              <br>
+              691 Pompton Ave, Cedar Grove, NJ 07009
+              <br>
+            </p>
+          </div>
+          <div class="section-map has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.6756134920574!2d-74.23221368423917!3d40.8570452793164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3003ad3d5d1bb%3A0x160248fd2ef18e98!2sThe%20Grove!5e0!3m2!1sen!2sus!4v1654533326409!5m2!1sen!2sus" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="space40px"></div>
+        </div>
+      </section>
+      <!-- End Location Content -->
+
+      <!-- Begin Stella and Kevin's photo section -->
+      <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+        <div class="container">
+          <div class="columns is-multiline">  
+          <div class="column has-text-centered is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">PHOTOS</h1>
+            
+
+          
+          <!-- IMAGES -->  
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-3by2">
+                <img src="image/stella_engage2.JPG">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-3by2">
+                <img src="image/stella_engage4.JPG">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-3by2">
+                <img src="image/stella_engage6.JPG">
+              </figure>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-3by4">
+                <img src="image/stella_engage5.JPG">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-3by4">
+                <img src="image/stella_engage7.JPG">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-3by4">
+                <img src="image/stella_engage8.JPG">
+              </figure>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-4by5">
+                <img src="image/stella6.jpeg">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-4by5">
+                <img src="image/stella4.JPEG">
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-4by5">
+                <img src="image/stella2.JPG">
+              </figure>
+            </div>
+          </div>
+          <!-- IMAGES -->
+          <div class="space40px"></div>
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
+            </div> 
+            <div class="space40px"></div>
+            <div class="space40px"></div>
+
+          </div>
+        </div>
+      </section>
+      <!-- End Stella and Kevin's photo -->
+
+      <!-- Begin RSVP Content -->
+      <section class="section-dark contact" id="rsvp">
+        <div class="container">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">FAQs</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                <strong>What should I wear? </strong>
+                <br>
+                Our wedding dress code is cocktail attire. Ladies can wear a cocktail dress or floor-length dress and men can wear a suit and tie.
+                <br>
+                <br>
+                <strong>Will the wedding be indoors or outdoors? </strong>
+                <br>
+                The ceremony (please arrive promptly by 11am), cocktail hour and reception will all be taking place indoors at The Grove.
+                <br>
+                <br>
+                <strong>Can I bring my kids or a plus one?</strong>
+                <br> 
+                We are only able to accommodate children and plus ones explicitly listed on your invitation. Please text or call us if you have specific questions or concerns. 
+                <br>
+                <br>
+                <strong>What type of food and drink will be served? </strong>
+                <br>
+                We will be serving passed hors d'oeuvres along with several stations of varying cuisines during cocktail hour. This will be followed by a three-course plated meal during the reception. And of course, an open bar!
+                <br>
+                <br>
+                <strong>I have dietary restrictions/allergies. How should I let you know?</strong>
+                <br>
+                Please write any dietary restrictions/allergies on the RSVP form so that we can address them with our venue.
+                <br>
+                <br>
+                <strong>When should I RSVP by?</strong>
+                <br>
+                As soon as possible! But please respond no later than May 27, 2023 so that we can get an accurate 
+                headcount. 
+                <br>
+                <br>
+                <strong>What is your wedding hashtag? </strong>
+                <br>
+                #StellasMatchMadeInKevin
+                <br>
+                <div class="space40px"></div>
+                Your invite code <input id = "password" type = "text" />
+                <button onclick = "passwordCheck()"> Submit </button>
+                <div id="demo"></div>
+
+
+                </p>
+
+
+
+              <div class="space40px"></div>
+              <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+              </div>
+              <div class="space40px"></div>
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                See you soon,
+                <br>
+                Stella & Kevin
+              </p>
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
+          <p class="has-vertically-align">2022 &copy Haoyue Zhou Yiwen Hong</p>
+        </a>
+        <a href="https://bulma.io" class="has-vertically-align">
+          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
+        </a>
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
+        </a>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+    <script> 
+    function passwordCheck(){
+      let passwrd = document.getElementById('password');
+      let password = passwrd.value;
+      if (!password) {
+      document.getElementById("demo").innerText = 'please enter your invite code';
+      }
+      else if (password === '01') {
+        var myDiv = document.getElementById("demo");
+        var button = document.createElement('BUTTON');
+        button.innerText = 'RSVP';
+        button.onclick = function() {
+          location.href = "https://docs.google.com/forms/d/e/1FAIpQLScUvGUnFj8QCAJ74qCemBZ8Ru7Rf_tBjEL2TTYvJJv9h6-H3Q/viewform?usp=sf_link";
+        };
+        myDiv.appendChild(button);
+
+      }
+      else if (password === '02') {
+        var myDiv = document.getElementById("demo");
+        var button = document.createElement('BUTTON');
+        button.innerText = 'RSVP';
+        button.onclick = function() {
+          location.href = "https://www.cnn.com/";
+        };
+        myDiv.appendChild(button);
+
+      }
+    }
+    
+    
+    
+    </script>
+  </body>
+</html>
